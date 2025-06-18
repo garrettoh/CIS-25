@@ -5,4 +5,5 @@ FINAL PROJECT: As a security researcher, I'm interested in Maldev, so creating m
 ## Things to add/learn
 ##### Better UI,
 ##### More familiarity with LeetCode concepts like Data Structures and Algorithms 
+##### Actually learn nvim so I can be a lore accurate Arch Linux guy
 ### Check out the rest of my profile to see what I'm doing in my free time :)
