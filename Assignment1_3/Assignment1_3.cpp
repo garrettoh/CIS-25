@@ -3,7 +3,7 @@
 //
 
 #include <iostream>
-#include "..\getValidInput.h"
+#include "../getValidInput.h"
 using namespace std;
 void runAssignment3() {
     cout << "Part one is the entire assignment already\n";
