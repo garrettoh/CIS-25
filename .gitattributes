@@ -1,0 +1,5 @@
+CMakeLists.txt linguist-documentation
+*.cmake linguist-documentation
+Makefile linguist-documentation
+*.c linguist-documentation
+*.h linguist-documentation
