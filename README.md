@@ -2,6 +2,7 @@
 First week, implemented user input validation and sanitization aswell as a simple menu to navigate around the various projects
 # Usage & Dependencies
 CMake > v4.0
+
 in project root directory
 ```
 mkdir build
