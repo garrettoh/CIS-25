@@ -1,6 +1,7 @@
 # This is a Repo for CIS-25 Projects
 First week, implemented user input validation and sanitization aswell as a simple menu to navigate around the various projects
-# Usage
+# Usage & Dependencies
+CMake > v4.0
 in project root directory
 ```
 mkdir build
