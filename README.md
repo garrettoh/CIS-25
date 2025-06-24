@@ -1,5 +1,16 @@
 # This is a Repo for CIS-25 Projects
 First week, implemented user input validation and sanitization aswell as a simple menu to navigate around the various projects
+# Usage
+in project root directory
+```
+mkdir build
+cd build
+cmake ..
+make
+```
+After this you can run (Main) 
+## Current issues
+On assignment 7 there is a memory issue working on solving at the moment
 ## Ideas I currently have
 FINAL PROJECT: As a security researcher, I'm interested in Maldev, so creating malware for the final project would be interesting. However, I'm currently debating between that and a Packer/Crypter.
 ## Things to add/learn
