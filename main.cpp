@@ -13,7 +13,10 @@ void showMainMenu()
     cout << "2. Assignment 2: Input and Output Variables\n";
     cout << "3. Assignment 3: Debugging and Logic\n";
     cout << "4. Assignment 4: Functions and Loops\n";
-    cout << "5. Exit the Program\n";
+    cout << "5. Assignment 5: Pointers and memory\n";
+    cout << "6. Assignment 6: Strings and classes\n";
+    cout << "7. Assignment 7: OOP Principles\n";
+    cout << "8. Exit the Program\n";
     cout << "\n";
     cout << "Your choice: ";
 }
@@ -24,7 +27,7 @@ int main() {
     int choice;
     do {
         showMainMenu();
-        choice = getValidInput(1, 5);
+        choice = getValidInput(1, 8);
         switch (choice) {
             case 1:
                 runAssignment1();
@@ -39,9 +42,18 @@ int main() {
                 runAssignment4();
                 break;
             case 5:
+                runAssignment5();
+                break;
+            case 6:
+                runAssignment6();
+                break;
+            case 7:
+                runAssignment7();
+                break;
+            case 8:
                 cout << "Goodbye!";
         }
-    } while (choice !=5);
+    } while (choice !=8);
 
     return 0;
 }

@@ -1,3 +1,0 @@
-/home/gart/projects/cis25/Assignment1/Build/CMakeFiles/Assignment1.dir
-/home/gart/projects/cis25/Assignment1/Build/CMakeFiles/edit_cache.dir
-/home/gart/projects/cis25/Assignment1/Build/CMakeFiles/rebuild_cache.dir
