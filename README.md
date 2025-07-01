@@ -1,3 +1,17 @@
+# How to build / Pre requisites 
+1. C++ 17 >= and CMake >= 4.0.x
+2. Create a folder in the root directory
+3. Open folder
+4. right click > Open in terminal > **"cmake .."**
+5. In terminal type > **"make"**
+6. Run "Main.exe" / "Main"
+```sh
+~/CIS-25/: mkdir build
+~/CIS-25/: cd build
+~/CIS-25/build: cmake ..
+~/CIS-25/build: make
+~/CIS-25/build: ./Main
+```
 # This is a Repo for CIS-25 Projects
 First week, implemented user input validation and sanitization aswell as a simple menu to navigate around the various projects
 
