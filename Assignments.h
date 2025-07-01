@@ -10,4 +10,7 @@
 #include "Assignment2/Assignment6/Assignment6.h"
 #include "Assignment2/Assignment7/Assignment7.h"
 
+
+#include "Assignment3/Assignment8/Assignment8.h"
+#include "Assignment3/Assignment9/Assignment9.h"
 #endif // ASSIGNMENTS_H

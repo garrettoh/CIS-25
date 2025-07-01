@@ -1,10 +1,10 @@
 #include "Assignment7.h"
 
-Item::Item(string n, int q) : name(n), quantity(q) {}
+Item7::Item7(string n, int q) : name(n), quantity(q) {}
 
-Perishable::Perishable(string n, int q) : Item(n, q) {}
+Perishable::Perishable(string n, int q) : Item7(n, q) {}
 
-NonPerishable::NonPerishable(string n, int q) : Item(n, q) {}
+NonPerishable::NonPerishable(string n, int q) : Item7(n, q) {}
 void Perishable::display() {
     cout << name << " (Perishable), Qty: " << quantity << "\n";
 }

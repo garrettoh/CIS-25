@@ -18,4 +18,7 @@ add_executable(Main
     Assignment2/Assignment6/Assignment6.cpp
     Assignment2/Assignment7/Assignment7.cpp
     Assignment2/Assignment7/Item.cpp
+    Assignment3/Assignment8/Assignment8.cpp
+    Assignment3/Assignment9/Assignment9.cpp
+
 )

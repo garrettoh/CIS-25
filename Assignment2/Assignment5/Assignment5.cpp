@@ -9,11 +9,11 @@
  * */
 using namespace std;
 
-struct Item {
+struct Item5 {
 	string name;
 	int id;
 };
-int binarySearch(vector<Item>& items, int targetId){
+int binarySearch(vector<Item5>& items, int targetId){
 	int left = 0; 
 	int right = items.size() - 1;
 
@@ -32,13 +32,13 @@ int binarySearch(vector<Item>& items, int targetId){
 }
 void runAssignment5(){
 	
-	vector<Item> Items;
+	vector<Item5> Items;
 	//Constructing using the vector
 	Items.push_back({"Banana", 1});
 	Items.push_back({"Milkshake", 2});
 	Items.push_back({"Strawberry", 3});
 	//Constructing using the constructor
-	Item Tulip;
+	Item5 Tulip;
 	Tulip.name = "Tulip";
 	Tulip.id = 4;
 	Items.push_back(Tulip);

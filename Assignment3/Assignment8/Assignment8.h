@@ -17,3 +17,5 @@ class BankAccount {
 		void balanceSetter();
 		
 };
+
+void runAssignment8();
