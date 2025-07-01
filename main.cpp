@@ -4,7 +4,16 @@
 #include "Assignments.h"
 using namespace std;
 
-
+void pauseAndClear() {
+    cout << "\nPress Enter to return to the menu...";
+    cin.ignore(); 
+    cin.get();
+    #ifdef _WIN32
+        system("cls");
+    #else
+        system("clear");
+    #endif
+}
 void showMainMenu()
 {
     cout << "\n\n\n1. Assignment 1: Getting Started with C++ (Hello World!)\n";
@@ -36,30 +45,39 @@ int main() {
         switch (choice) {
             case 1:
                 runAssignment1();
+		pauseAndClear();
                 break;
             case 2:
                 runAssignment2();
+		pauseAndClear();
                 break;
             case 3:
                 runAssignment3();
+		pauseAndClear();
                 break;
             case 4:
                 runAssignment4();
+		pauseAndClear();
                 break;
             case 5:
                 runAssignment5();
+		pauseAndClear();
                 break;
             case 6:
                 runAssignment6();
+		pauseAndClear();
                 break;
             case 7:
                 runAssignment7();
+		pauseAndClear();
                 break;
 	    case 8:
 		runAssignment8();
+		pauseAndClear();
 		break;
 	    case 9:
 		runAssignment9();
+		pauseAndClear();
 		break;
             case 10:
                 cout << "Goodbye!\n";
