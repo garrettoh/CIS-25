@@ -1,4 +1,4 @@
-# This is a Repo for CIS-25 Projects
+# This is a Repo for CIS-25 Projects i made an oopsy with the repo lol
 First week, implemented user input validation and sanitization aswell as a simple menu to navigate around the various projects
 ## Ideas I currently have
 FINAL PROJECT: As a security researcher, I'm interested in Maldev, so creating malware for the final project would be interesting. However, I'm currently debating between that and a Packer/Crypter.
